@@ -8,8 +8,8 @@ for var i = 10;i >= 1;i-- {
     if i == 10{
         f = 1
     } else {
-        f = (f + 1)*2
+        f = (f+1)*2
     }
-    sum += f
-}
-println("\(sum)")
+    
+  println("\(f)")}
+
