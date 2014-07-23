@@ -20,7 +20,7 @@ for i in 0...9{
  }
 
 
-ffor i in 0...9 {
+for i in 0...9 {
     for k in 0...(19-2*i) {
         print(" ")
     }
