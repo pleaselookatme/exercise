@@ -20,14 +20,21 @@ for i in 0...9{
  }
 
 
-for i in 0...9 {
+ffor i in 0...9 {
     for k in 0...(19-2*i) {
         print(" ")
     }
     for j in 0...i {
-       
-        print(board[i][j])
-        print("   ")
+        if board[i][j]<10{
+            print(board[i][j])
+            print("   ")
+        }else if board[i][j]>=10&&board[i][j]<100{
+            print(board[i][j])
+            print("  ")
+        } else{
+       print(board[i][j])
+            print(" ")
+        }
     }
     println("")
 }
