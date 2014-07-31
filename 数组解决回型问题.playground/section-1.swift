@@ -3,7 +3,7 @@
 
 
 var board = Array<Array<Int>> ()
-for i in 0..7 {
+for i in 0..<7 {
     board.append( Array(count:7,repeatedValue:0))
 }
 board
@@ -17,7 +17,7 @@ for  i = 0 ;i < 4; i++ {
         k++
         board[6-i][j] = k
     }
-    for  j = 6-i; j >= i ; j-- {
+    for  j = 5-i; j >= i ; j-- {
         k++
         board[j][6-i] = k
     }
