@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040642EF1999B60000DCA710 /* blur_bg_fog_day.png in Resources */ = {isa = PBXBuildFile; fileRef = 040642EE1999B60000DCA710 /* blur_bg_fog_day.png */; };
+		042D0C6419989379004D30B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D0C6319989379004D30B6 /* AppDelegate.swift */; };
+		042D0C6619989379004D30B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D0C6519989379004D30B6 /* ViewController.swift */; };
+		042D0C6919989379004D30B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042D0C6719989379004D30B6 /* Main.storyboard */; };
+		042D0C6B19989379004D30B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042D0C6A19989379004D30B6 /* Images.xcassets */; };
+		042D0C771998937A004D30B6 /* weather_mohooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D0C761998937A004D30B6 /* weather_mohooTests.swift */; };
+		042D0C8E19989E27004D30B6 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D0C8D19989E27004D30B6 /* HttpRequest.swift */; };
+		042D0C901998A6A0004D30B6 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D0C8F1998A6A0004D30B6 /* ControlView.swift */; };
+		36B24D29199B3E5000BE8DA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B24D28199B3E5000BE8DA8 /* DetailViewController.swift */; };
+		36B24D2B199B410C00BE8DA8 /* placesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B24D2A199B410C00BE8DA8 /* placesViewController.swift */; };
+		36B24D2D199B53C100BE8DA8 /* displayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B24D2C199B53C100BE8DA8 /* displayViewController.swift */; };
+		36B24D2F199B6D3300BE8DA8 /* bg_rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36B24D2E199B6D3300BE8DA8 /* bg_rain.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042D0C711998937A004D30B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042D0C5619989379004D30B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042D0C5D19989379004D30B6;
+			remoteInfo = "weather-mohoo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040642EE1999B60000DCA710 /* blur_bg_fog_day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur_bg_fog_day.png; sourceTree = "<group>"; };
+		042D0C5E19989379004D30B6 /* weather-mohoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-mohoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042D0C6219989379004D30B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042D0C6319989379004D30B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042D0C6519989379004D30B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042D0C6819989379004D30B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042D0C6A19989379004D30B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		042D0C701998937A004D30B6 /* weather-mohooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "weather-mohooTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042D0C751998937A004D30B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042D0C761998937A004D30B6 /* weather_mohooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather_mohooTests.swift; sourceTree = "<group>"; };
+		042D0C8D19989E27004D30B6 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		042D0C8F1998A6A0004D30B6 /* ControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		36AD8ADA1999E1E100D9AC03 /* funs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = funs.playground; sourceTree = "<group>"; };
+		36B24D28199B3E5000BE8DA8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		36B24D2A199B410C00BE8DA8 /* placesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = placesViewController.swift; path = "weather-mohoo/placesViewController.swift"; sourceTree = "<group>"; };
+		36B24D2C199B53C100BE8DA8 /* displayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayViewController.swift; sourceTree = "<group>"; };
+		36B24D2E199B6D3300BE8DA8 /* bg_rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_rain.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042D0C5B19989379004D30B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042D0C6D1998937A004D30B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042D0C5519989379004D30B6 = {
+			isa = PBXGroup;
+			children = (
+				042D0C8019989458004D30B6 /* utility */,
+				042D0C6019989379004D30B6 /* weather-mohoo */,
+				042D0C731998937A004D30B6 /* weather-mohooTests */,
+				042D0C5F19989379004D30B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042D0C5F19989379004D30B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042D0C5E19989379004D30B6 /* weather-mohoo.app */,
+				042D0C701998937A004D30B6 /* weather-mohooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042D0C6019989379004D30B6 /* weather-mohoo */ = {
+			isa = PBXGroup;
+			children = (
+				042D0C6319989379004D30B6 /* AppDelegate.swift */,
+				042D0C6519989379004D30B6 /* ViewController.swift */,
+				36B24D28199B3E5000BE8DA8 /* DetailViewController.swift */,
+				36B24D2C199B53C100BE8DA8 /* displayViewController.swift */,
+				042D0C6719989379004D30B6 /* Main.storyboard */,
+				042D0C6A19989379004D30B6 /* Images.xcassets */,
+				36B24D2E199B6D3300BE8DA8 /* bg_rain.jpg */,
+				042D0C6119989379004D30B6 /* Supporting Files */,
+				36AD8ADA1999E1E100D9AC03 /* funs.playground */,
+			);
+			path = "weather-mohoo";
+			sourceTree = "<group>";
+		};
+		042D0C6119989379004D30B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040642EE1999B60000DCA710 /* blur_bg_fog_day.png */,
+				042D0C6219989379004D30B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042D0C731998937A004D30B6 /* weather-mohooTests */ = {
+			isa = PBXGroup;
+			children = (
+				042D0C761998937A004D30B6 /* weather_mohooTests.swift */,
+				042D0C741998937A004D30B6 /* Supporting Files */,
+			);
+			path = "weather-mohooTests";
+			sourceTree = "<group>";
+		};
+		042D0C741998937A004D30B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042D0C751998937A004D30B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		042D0C8019989458004D30B6 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				042D0C8D19989E27004D30B6 /* HttpRequest.swift */,
+				042D0C8F1998A6A0004D30B6 /* ControlView.swift */,
+				36B24D2A199B410C00BE8DA8 /* placesViewController.swift */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042D0C5D19989379004D30B6 /* weather-mohoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042D0C7A1998937A004D30B6 /* Build configuration list for PBXNativeTarget "weather-mohoo" */;
+			buildPhases = (
+				042D0C5A19989379004D30B6 /* Sources */,
+				042D0C5B19989379004D30B6 /* Frameworks */,
+				042D0C5C19989379004D30B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "weather-mohoo";
+			productName = "weather-mohoo";
+			productReference = 042D0C5E19989379004D30B6 /* weather-mohoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042D0C6F1998937A004D30B6 /* weather-mohooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042D0C7D1998937A004D30B6 /* Build configuration list for PBXNativeTarget "weather-mohooTests" */;
+			buildPhases = (
+				042D0C6C1998937A004D30B6 /* Sources */,
+				042D0C6D1998937A004D30B6 /* Frameworks */,
+				042D0C6E1998937A004D30B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042D0C721998937A004D30B6 /* PBXTargetDependency */,
+			);
+			name = "weather-mohooTests";
+			productName = "weather-mohooTests";
+			productReference = 042D0C701998937A004D30B6 /* weather-mohooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042D0C5619989379004D30B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mohoo;
+				TargetAttributes = {
+					042D0C5D19989379004D30B6 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					042D0C6F1998937A004D30B6 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 042D0C5D19989379004D30B6;
+					};
+				};
+			};
+			buildConfigurationList = 042D0C5919989379004D30B6 /* Build configuration list for PBXProject "weather-mohoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042D0C5519989379004D30B6;
+			productRefGroup = 042D0C5F19989379004D30B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042D0C5D19989379004D30B6 /* weather-mohoo */,
+				042D0C6F1998937A004D30B6 /* weather-mohooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042D0C5C19989379004D30B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B24D2F199B6D3300BE8DA8 /* bg_rain.jpg in Resources */,
+				042D0C6919989379004D30B6 /* Main.storyboard in Resources */,
+				040642EF1999B60000DCA710 /* blur_bg_fog_day.png in Resources */,
+				042D0C6B19989379004D30B6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042D0C6E1998937A004D30B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042D0C5A19989379004D30B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042D0C901998A6A0004D30B6 /* ControlView.swift in Sources */,
+				042D0C6619989379004D30B6 /* ViewController.swift in Sources */,
+				36B24D2B199B410C00BE8DA8 /* placesViewController.swift in Sources */,
+				36B24D29199B3E5000BE8DA8 /* DetailViewController.swift in Sources */,
+				042D0C6419989379004D30B6 /* AppDelegate.swift in Sources */,
+				042D0C8E19989E27004D30B6 /* HttpRequest.swift in Sources */,
+				36B24D2D199B53C100BE8DA8 /* displayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042D0C6C1998937A004D30B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042D0C771998937A004D30B6 /* weather_mohooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042D0C721998937A004D30B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042D0C5D19989379004D30B6 /* weather-mohoo */;
+			targetProxy = 042D0C711998937A004D30B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042D0C6719989379004D30B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042D0C6819989379004D30B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042D0C781998937A004D30B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042D0C791998937A004D30B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042D0C7B1998937A004D30B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "weather-mohoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		042D0C7C1998937A004D30B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "weather-mohoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		042D0C7E1998937A004D30B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weather-mohoo.app/weather-mohoo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "weather-mohooTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		042D0C7F1998937A004D30B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weather-mohoo.app/weather-mohoo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "weather-mohooTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042D0C5919989379004D30B6 /* Build configuration list for PBXProject "weather-mohoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042D0C781998937A004D30B6 /* Debug */,
+				042D0C791998937A004D30B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042D0C7A1998937A004D30B6 /* Build configuration list for PBXNativeTarget "weather-mohoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042D0C7B1998937A004D30B6 /* Debug */,
+				042D0C7C1998937A004D30B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042D0C7D1998937A004D30B6 /* Build configuration list for PBXNativeTarget "weather-mohooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042D0C7E1998937A004D30B6 /* Debug */,
+				042D0C7F1998937A004D30B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042D0C5619989379004D30B6 /* Project object */;
+}
